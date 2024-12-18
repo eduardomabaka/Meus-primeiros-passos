@@ -10,6 +10,7 @@
 *{
   margin:0px;
   padding: 0px;
+  
 }
 
 body{
@@ -28,24 +29,22 @@ nav > a{
 ;
 }
 main{
-  background-color: var(--principal);
+  background-color: var(--destaque);
   margin: 0px 10px;
 }
 #indece{
   background-color: rgba(0,0,0,0.40);
-  height: 100px;
   padding: 20px;
   line-height: 30px;
 }
 article > h2{
-  color: var(--destaque);
+  color: var(--principal);
 }
 article > #ti{
   text-align: center;
 }
-#bolo{
- padding: 10px;
- background-image: url(fotos/pexels-artempodrez-6823458.jpg);
+article{
+  padding: 10px;
 }
 article > p{
   text-indent: 20px;
@@ -54,12 +53,20 @@ article > p{
   color: var(--texto);
 }
 article > img {
-  width: 50%;
+  width: 65%;
   position: relative;
-  left: 110px;
+  left: 80px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px black;
 }
-#doces{
-  padding: 10px;
-};
+#coclusao{
+  text-align: center;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.apresentacao{
+  width: 150px;
+}
