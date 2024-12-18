@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+:root{
+  --fundo: #FFF5F0;
+  --principal: #F7A8A8;
+  --destaque: #B4D8E7;
+  --texto: #403D39;
+  --verde: #A3B18F;
+}
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+body{
+  background-color: var(--fundo);
+  text-align: justify;
+}
+header{
+  background-image: url('fotos/pexels-artempodrez-6823458.jpg');
+  height: 150px;
+}
+nav{
+  position: relative;
+}
+nav > a{
+  margin: 20px;
+;
+}
+main{
+  background-color: var(--principal);
+  margin: 0px 10px;
+}
+#indece{
+  background-color: rgba(0,0,0,0.40);
+  height: 100px;
+  padding: 20px;
+  line-height: 30px;
+}
+article > h2{
+  color: var(--destaque);
+}
+article > #ti{
+  text-align: center;
+}
+#bolo{
+ padding: 10px;
+ background-image: url(fotos/pexels-artempodrez-6823458.jpg);
+}
+article > p{
+  text-indent: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: var(--texto);
+}
+article > img {
+  width: 50%;
+  position: relative;
+  left: 110px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px black;
+}
+#doces{
+  padding: 10px;
+};
