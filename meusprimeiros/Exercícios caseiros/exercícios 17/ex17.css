@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root{
+  --cor1: #141414;
+  --cor2: #1F1F1F;
+  --cor3: #C5D97E;
+  --cor4: #333333;
+}
+body{
+  background-color: black;
+  text-align: justify;
+}
+main{
+  background-color: var(--cor2);
+  color: white;
+  padding: 10px;
+  margin: 200px auto;
+  height: 330px;
+  width: 300px;
+  border-radius: 20px
+}
+main > p.numero{
+  display: inline-block;
+  background-color: var(--cor4);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 50px;
+}
+main > p#pr{
+  line-height: 25px;
+}
+div{
+  background-color: orangered;
+  border-radius: 20px;
+  margin: 10px;
+}
+#enviar{
+  padding: 10px;
+  display: block;
+  margin: auto;
+  background-color: orangered;
+}
