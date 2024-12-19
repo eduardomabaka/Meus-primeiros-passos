@@ -19,6 +19,8 @@ body{
 }
 header{
   background-image: url('fotos/pexels-artempodrez-6823458.jpg');
+  background-position: center center;
+  background-size: 100%;
   height: 150px;
 }
 nav{
