@@ -18,58 +18,77 @@ body{
   text-align: justify;
 }
 header{
+  padding-top: 50px;
+}
+header#cabecalho1{
   background-image: url('fotos/pexels-artempodrez-6823458.jpg');
   background-position: center center;
-  background-size: 100%;
-  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1{
+  font-variant: small-caps;
+}
+header > h1,p{
+  text-align: center;
+}
+header > p{
+ font-weight: bold;
+ padding-bottom: 50px;
 }
 nav{
-  background-color: black;
+  background-color: #A81C1C;
+  padding: 20px;
 }
 nav > a{
-  margin: 20px;
-;
-}
-main{
-  background-color: var(--destaque);
-  margin: 0px 10px;
-}
-#indece{
-  background-color: rgba(0,0,0,0.40);
-  padding: 20px;
-  line-height: 30px;
-}
-article > h2{
-  color: var(--principal);
-}
-article > #ti{
-  text-align: center;
-}
-article{
+  background-color: #BC4D4D;
   padding: 10px;
-}
-article > p{
-  text-indent: 20px;
-  line-height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
   font-weight: bold;
-  color: var(--texto);
 }
-article > img {
-  width: 65%;
-  position: relative;
-  left: 80px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px black;
+nav > a:hover{
+  background-color: #A81C1C;
+  border: 2px solid #BC4D4D;
 }
-#coclusao{
-  text-align: center;
+ul,ol{
+  text-align: justify;
+  margin: 20px;
+}
+ol{
+  background-color: #00000085;
+  padding: 30px;
+}
+ol > li{
+  color: #A81C1C;
+  font-size: 1.5em;
+}
+ul > li{
+  color: white;
+}
+.normal{
+  background-color: white;
+}
+#bolo{
+  background: black url('fotos/pexels-merve-205352359-16223357.jpg') right center no-repeat fixed;
+  background-size: cover;
+}
+#doces{
+  background: black url(fotos/pexels-daka-11345218.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+section{
+  padding: 10vh;
+  line-height: 2em;
+}
+section > p{
+  margin-top: 15px;
+  text-indent: 20px;
 }
 footer{
+  text-align: center;
   background-color: black;
   color: white;
-  text-align: center;
 }
-.apresentacao{
-  width: 150px;
-}
-

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+header#cabecalho2{
+  background: black url(fotos/pexels-roman-odintsov-5845847.jpg) left center no-repeat;
+  background-size: cover;
+  color: #E2E2E4;
+}
