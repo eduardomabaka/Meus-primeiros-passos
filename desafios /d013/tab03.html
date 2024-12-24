@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desafio 13.3</title>
+  <style>
+  body{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  table{
+    border-collapse: collapse;
+  }
+    td , th{
+      border: 1px solid black;
+      width: 80px;
+      padding: 5px;
+    }
+    td{
+      text-align: left;
+    }
+    thead,.t{
+      background-color: #404040;
+      color: white;
+    }
+    .num{
+      text-align: right;
+    }
+    .num1{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Terceiro desafio</h1>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2" scope="col">Area</th>
+        <th rowspan="2" scope="col">Disciplina</th>
+        <th colspan="2" scope="colgroup">Notas</th>
+        <th rowspan="2" scope="col">media</th>
+      </tr>
+      <tr>
+        <th scope="col">Nota1</th>
+        <th scope="col">Nota2</th>
+      </tr>
+      <tbody>
+        <tr>
+        <th rowspan="4" scope="rowgroup">Exatas</th>
+        <td>Matemática</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>
+        </tr>
+        <tr>
+        <td>Fisica</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>          
+        </tr>
+        <tr>
+        <td>Química</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>          
+        </tr>
+        <tr>
+        <td>Biologia</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>
+        <td class="num1">0.0</td>          
+        </tr>
+        <tr class="t">
+        <th colspan="4" scope="row">Medias Exatas</th>
+          <td class="num">0.0</td>
+        </tr>
+        <tr>
+          <th rowspan="2" scope="rowgroup">Humanas</th>
+          <td>Historia</td>
+          <td class="num1"d>0.0</td>
+          <td class="num1">0.0</td>
+          <td class="num1">0.0</td>       
+        </tr>
+        <tr>
+          <td>Geografia </td>
+          <td class="num1">0.0</td>
+          <td class="num1">0.0</td>
+          <td class="num1">0.0</td>       
+        </tr>
+        <tr class="t">
+          <th colspan="4" scope="row">Medias humanas</th>
+          <td class="num">0.0</td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+
+</body>
+</html>

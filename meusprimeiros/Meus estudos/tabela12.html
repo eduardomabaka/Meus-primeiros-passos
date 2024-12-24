@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>exercícios</title>
+  <style>
+  table{
+    border-collapse: collapse;
+  }
+    th,td{
+      border: 1px solid black;
+      padding: 15px;
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercícios tabela</h1>
+  <table>
+  <thead>
+    <tr>
+    <th scope="col">Grupos</th>
+    <th scope="col">Nomes</th>
+    <th colspan="3" scope="colgroup">Filmes</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th rowspan="2" scope="rowgroup">Mulheres</th>
+    <td>Maria</td>
+    <td>Rambo</td>
+    <td>vendera</td>
+    <td>Vingadores</td>
+    </tr>
+    <tr>
+      <td>joana</td>
+      <td>Chuque</td>
+      <td>viking</td>
+      <td>susto</td>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="rowgroup">Homem</th>
+      <td>Eduardo</td>
+      <td>Startup</td>
+      <td>Round-6</td>
+      <td>Jonh wick</td>
+    </tr>
+    <tr>
+      <td>Mabaka</td>
+      <td>Correr </td>
+      <td>Blue</td>
+      <td>Aneis de ouro</td>
+    </tr>
+  </tbody>
+  </table>
+
+</body>
+</html>
