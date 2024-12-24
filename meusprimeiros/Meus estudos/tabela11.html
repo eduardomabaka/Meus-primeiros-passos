@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>uso de tabelas</title>
+  <style>
+    thead,tfoot{
+      background-color: darkgrey;
+      color: white;
+    }
+    table{
+      background: black url(72csXW6djy.png) center center no-repeat;
+  
+      background-size: cover;
+       border-collapse: collapse;
+    }
+    thead > tr > th{
+      position: sticky;
+      top: 0px;
+      background-color: darkgrey;
+    }
+    caption{
+      font-size: 1.5em;
+      font-weight: bold;
+      padding: 15px;
+      background-color: silver;
+    }
+    td,th{
+      border: 1px solid black;
+      padding: 10px;
+    }
+    .grande{
+      width: 200px;
+    }
+    .pequeno{
+      width: 100px;
+    }
+    .num{
+      text-align: right;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    tbody > tr:nth-child(2n){
+      background-color: #4E4E4E82;
+    }
+  </style>
+</head>
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <table>
+    <caption>
+      Populações das província
+    </caption>
+    <thead>
+    <tr>
+      <th class="grande" scope="col">Estado</th>
+      <th class="pequeno" scope="co1">população</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Luanda</td>
+      <td class="num">100.246.700</td>
+    </tr>
+    <tr>
+      <td>Benguela</td>
+      <td class="num">100.388.203</td>
+    </tr>
+    <tr>
+      <td>Cabinda</td>
+      <td class="num">506.899</td>
+    </tr>
+    <tr>
+      <td>Bengo</td>
+      <td class="num">588.277</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <th scope="row">Total</th>
+    <td class="num">400.200.000</td>
+  </tfoot>
+  </table>
+  
+</body>
+</html>
