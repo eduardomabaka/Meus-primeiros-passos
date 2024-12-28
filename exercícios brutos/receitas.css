@@ -57,11 +57,11 @@ ul,ol{
   text-align: justify;
   margin: 20px;
 }
-ol{
+ol.lt{
   background-color: #00000085;
   padding: 30px;
 }
-ol > li{
+ol.lt > li{
   color: #A81C1C;
   font-size: 1.5em;
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  table{
+    width: 1000px;
+    height: 200px;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+    td{
+      border: 1px solid black;     
+      padding: 5px;
+      text-align: left;
+      vertical-align: top;
+    }
+    .n{
+      background: yellow;
+    }
+    .n1{
+      background: red;
+    }
+    div{
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Utilizando o colgroup</h1>
+  <div>
+  <table>
+    <colgroup>
+      <col class="n">
+      <col span="2" class="n1">
+    </colgroup>
+    <tr>
+      <td>A1</td>
+      <td>B1</td>
+      <td>C1</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>B2</td>
+      <td>C2</td>
+    </tr>
+    </div>
+</body>
+</html>

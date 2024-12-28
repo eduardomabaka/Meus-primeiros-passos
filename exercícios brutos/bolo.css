@@ -1,7 +1,62 @@
 @charset "UTF-8";
 
+*{
+  text-align: justify;
+}
 header#cabecalho2{
   background: black url(fotos/pexels-roman-odintsov-5845847.jpg) left center no-repeat;
   background-size: cover;
   color: #E2E2E4;
+}
+main{
+  height: 100vw;
+}
+main.principal{
+  padding: 30px;
+  background-color: #00000061;
+}
+main.segundo{
+  padding: 30px;
+}
+section{
+  position: relative;
+  
+}
+img{
+  position: absolute;
+  padding-bottom: 10px;
+  max-width: 800px;
+  width: 300px;
+  height: 160px;
+  top: 20px;
+  left: 70px;
+}
+.lista > li{
+  color: black;
+}
+/*article.p1{
+  max-height: 80vw;
+  position: absolute;
+  bottom: 110px;
+  left: 250px;
+}*/
+article.p2 > h3{
+  padding-top: 10px;
+}
+h1{
+  padding: 5px;
+  text-align: center;
+}
+article.p1#p11{
+  
+}
+h2.t2{
+  text-align: justify;
+  font-variant: small-caps;
+}
+p{
+  padding: 10px 10px 0px 10px;
+  text-align: justify;
+  line-height: 30px;
+  text-indent: 30px;
 }
