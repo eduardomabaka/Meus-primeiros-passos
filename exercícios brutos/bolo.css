@@ -10,17 +10,24 @@ header#cabecalho2{
 }
 main{
   height: 100vw;
+  padding: 30px;
+}
+main > h2,h3{
+  text-align: center;
+  padding: 2px;
 }
 main.principal{
-  padding: 30px;
   background-color: #00000061;
 }
 main.segundo{
-  padding: 30px;
+  height: 140vw;
 }
 section{
   position: relative;
   
+}
+main#s{
+  height: 110vw;
 }
 img{
   position: absolute;
@@ -51,8 +58,8 @@ article.p1#p11{
   
 }
 h2.t2{
-  text-align: justify;
   font-variant: small-caps;
+  
 }
 p{
   padding: 10px 10px 0px 10px;
