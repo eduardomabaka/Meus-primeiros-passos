@@ -8,6 +8,9 @@ header#cabecalho2{
   background-size: cover;
   color: #E2E2E4;
 }
+#cabecalho2 > p{
+  text-align: center;
+}
 main{
   height: 100vw;
   padding: 30px;
@@ -66,4 +69,7 @@ p{
   text-align: justify;
   line-height: 30px;
   text-indent: 30px;
+}
+footer > p{
+  text-align: center;
 }
