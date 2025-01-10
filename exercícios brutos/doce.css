@@ -4,7 +4,9 @@ header#cabecalho3{
   background: black url(fotos/doceh.jpg) right center no-repeat;
   background-size: cover;
 }
-
+header > p{
+  text-align: center;
+}
 main.principal{
   height: 60vh;
 }
