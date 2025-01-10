@@ -4,3 +4,7 @@ header#cabecalho3{
   background: black url(fotos/doceh.jpg) right center no-repeat;
   background-size: cover;
 }
+
+main.principal{
+  height: 60vh;
+}
