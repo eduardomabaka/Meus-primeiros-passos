@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>formulário</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    p.pa > input{
+      display: block;
+    }
+    p.pa{
+      display: inline-block;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <form action="" method="get" autocomplete="on">
+      <h1>Contact Us</h1>
+      <p class="pa">
+        <label for="iname">Fisrt name</label>
+        <input type="text" name="name" id="iname"></p>
+      <p class="pa">
+        <label for="isobre">Nick name</label>
+        <input type="text" name="sobre" id="isobre">        
+      </p>
+      <p>
+        <label for="iemail">E-mail</label>
+        <input type="email" name="email" id="iemail">
+      </p>
+      <p>
+        <input type="radio" name="f" id="if"><label for="if">Masculino</label>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
