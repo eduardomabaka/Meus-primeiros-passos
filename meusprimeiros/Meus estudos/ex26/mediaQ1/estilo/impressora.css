@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*------impresosora-------*/
+
+*{
+  margin: 10px;
+  padding: 10px;
+}
+html{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  line-height: 1em;
+}
+menu{
+  display: none;
+}
+div{
+  width: 100%;
+}
+div::after{
+  content: "foi impresso no site de Eduardo Mabaka";
+}
