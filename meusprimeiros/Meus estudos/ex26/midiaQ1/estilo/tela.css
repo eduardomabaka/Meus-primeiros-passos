@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*----Tela--*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+menu li{
+  display: inline-block;
+  list-style-type: none;
+  background: gray;
+  padding: 8px;
+  
+}
+menu ul{
+  background: darkgray;
+  padding: 10px;
+
+}
+header{
+  background: silver;
+}
+div{
+  display: block;
+  width: 350px;
+  margin: auto;
+}
+p{
+  font-size: 1.5em;
+  margin: 10px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  margin: 10px;
+}
