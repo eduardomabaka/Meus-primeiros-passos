@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+:root{
+  --principal--: #0D7356;
+  --secundario--: #64F2E9;
+}
+body,html{
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+div{
+  width: 100vw;
+  height: 100vh;
+  background: #BAEBC4;
+  position: relative;
+}
+form{
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+  width: 90vw;
+  padding: 5px;
+  border-radius: 10px;
+}
+h1{
+  margin: 10px;
+}
+p.pa{
+  display: inline-block;
+}
+input{
+ padding: 8px;
+}
+input.in{
+  display: block;
+  margin-top: 8px;
+}
+input > iname , isobre{
+  width: 60vw;
+}
+input#iemail{
+  width: 85vw;
+}
+.r{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 40vw;
+}
+.r > input{
+  margin: 3px;
+}
+p{
+  margin: 10px 4px;
+}
+input#enviar{
+  width: 88vw;
+  background: var(--principal--);
+  border-radius: 5px;
+  padding: 10px;
+}
+textarea{
+  width:88vw;
+  height: 8vh;
+}
+sup{
+  color: var(--principal--);
+}
+

@@ -5,37 +5,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>formulário</title>
-  <style>
-    *{
-      margin: 0px;
-      padding: 0px;
-    }
-    p.pa > input{
-      display: block;
-    }
-    p.pa{
-      display: inline-block;
-      margin-left: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <div>
     <form action="" method="get" autocomplete="on">
       <h1>Contact Us</h1>
       <p class="pa">
-        <label for="iname">Fisrt name</label>
-        <input type="text" name="name" id="iname"></p>
+        <label for="iname" class="lb">Fisrt name <sup>*</sup></label>
+         <input type="text" name="name" id="iname" class="in" required>
+      </p>
       <p class="pa">
-        <label for="isobre">Nick name</label>
-        <input type="text" name="sobre" id="isobre">        
+        <label for="isobre" class="lb">Last name <sup>*</sup></label>
+        <input type="text" name="sobre" id="isobre" class="in" required> 
+      </p>
+      <p class="pa">
+        <label for="iemail" class="lb">Email Adress <sup>*</sup></label>
+        <input type="email" name="email" id="iemail" class="in" required>
       </p>
       <p>
-        <label for="iemail">E-mail</label>
-        <input type="email" name="email" id="iemail">
+        Query Type <sup>*</sup>
+      </p>
+      <p class="r">
+        <input type="radio" name="M" id="if"><label for="if" required>General Enquiry</label>
+      </p>
+      <p class="r">
+        <input type="radio" name="M" id="im" required>
+        <label for="im">Support Request</label>
       </p>
       <p>
-        <input type="radio" name="f" id="if"><label for="if">Masculino</label>
+        <label for="isms">Message</label>
+      </p>
+      <p>
+        <textarea name="sms" id="isms" cols="30" rows="10">
+        </textarea>
+      </p>
+      <p>
+        <input type="checkbox" name="x" id="ix" required>
+        <label for="ix">I consent to Being contacted the team <sup>*</sup></label>
+      </p>
+      <p>
+        <input type="submit" value="Submit" id="enviar">
       </p>
     </form>
   </div>
