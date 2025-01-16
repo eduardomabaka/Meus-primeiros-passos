@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+body , html{
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+div{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+  background: #3F3F40;
+  width: 70vw;
+  height: 20vh;
+  border-radius: 10px;
+  padding: 10px;
+  
+  
+}
+h4{
+  padding: 10px;
+  text-align: center;
+  color: #6BB265;
+}
+p{
+  padding: 10px;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  color: #fff;
+  border-bottom: 1px solid #505250;
+}
+article{
+  position: absolute;
+  left: 40%;
+  bottom: -15%;
+  border-radius: 50%;
+  background: limegreen;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  
+  
+}
+p#dado{
+  text-align: center;
+}
