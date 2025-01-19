@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@media print {
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  
+  #tablet{
+  display: block;
+}
+  #tv{
+  display: none;
+}
+  #print{
+  display: none;
+}
+  #pc{
+  display: none;
+}
+  #phone{
+  display: none;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    
+  #tablet{
+  display: none;
+}
+  #tv{
+  display: none;
+}
+  #print{
+  display: none;
+}
+  #pc{
+  display: block;
+}
+  #phone{
+  display: none;
+}
+}
+@media screen and (min-width: 1200px){
+      
+  #tablet{
+  display: none;
+}
+  #tv{
+  display: block;
+}
+  #print{
+  display: none;
+}
+  #pc{
+  display: none;
+}
+  #phone{
+  display: none;
+}
+}
