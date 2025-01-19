@@ -5,10 +5,13 @@
   padding: 0px;
   text-align: center;
 }
-body , html{
+html{
   background: black;
   width: 100vw;
   height: 100vh;
+}
+body{
+  background: #636363;
 }
 main{
   position: relative;
@@ -23,8 +26,8 @@ div{
   
   
   background:  #494A55;
-  width: 70vw;
-  height: 20vh;
+  width: 400px;
+  height: 150px;
   border-radius: 10px;
   padding: 10px;
   
