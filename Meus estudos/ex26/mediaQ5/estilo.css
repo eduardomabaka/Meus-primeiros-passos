@@ -20,12 +20,26 @@ header > h1{
   text-align: center;
   padding: 10px;
 }
+menu{
+  display: none;
+}
 menu > ul {
   display: block;
   list-style-type: none;
 }
+#buguer{
+  background: #3F3F41;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+#buguer:hover{
+  background: white;
+  color: black;
+}
 a {
-  background-color: #626266;
+  background-color: #333335;
   display: block;
   padding: 10px;
   text-decoration: none;
