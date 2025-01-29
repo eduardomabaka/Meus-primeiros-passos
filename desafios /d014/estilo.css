@@ -54,3 +54,34 @@ div#formulario  > form{
   padding: 10px;
   
 }
+form > input[type=submit]{
+  background-color: #75C996;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  font-size: 1.2em;
+}
+form > input[type=submit]:hover{
+  background: #365141;
+}
+form > a{
+  border: 1px solid #37B86A;
+  color: black;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+}
+form > a:hover{
+  background:  #37B86A;
+}
+div.campo{
+  background-color: #7C489B;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0px;
+}
