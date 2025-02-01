@@ -80,8 +80,17 @@ form > a:hover{
   background:  #37B86A;
 }
 div.campo{
+  display: block;
   background-color: #7C489B;
   width: 100%;
   height: 30px;
   margin: 5px 0px;
+  border-radius: 5px;
+}
+div.campo > input{
+  background: #65BAAA;
+  padding: 5px;
+  border-radius:5px;
+  
+  transform: translateY(5%);
 }
