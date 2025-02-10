@@ -4,15 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilos/login.css" type="text/css" media="all" />
   <title>Area de login</title>
 </head>
 <body>
-  <main id="printcipal">
-    <div id="formulario">
+  <main id="principal">
       <form autocapitalize="on" method="post">
-        
-      </form>
-      
+        <fieldset id="bordas">
+          <legend><h1>Login</h1></legend>
+           <label for="inome">Nome</label>
+          <input type="text" name="name" id="inome" value="Digite dgite seu nome"/>
+           <label for="numero">Número</label>
+          <input type="number" name="numeros" id="numero" value="+244">
+          <label for="isenha">Senha</label>
+          <input type="password" name="senha" id="isenha">
+          <input type="submit" value="send">
+         </fieldset>
     </div>
   </main>
 </body>
