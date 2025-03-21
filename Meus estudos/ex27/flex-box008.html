@@ -9,31 +9,31 @@
     div.container{
       background-color: #D07A41;
       display: flex;
-      align-items: flex-start;
       flex-flow: row wrap;
-      height: 30vh;
     }
     div.item{
       background-color: #55B78A;
       text-align: center;
       border: 1px solid black;
       padding: 10px;
-      margin-right: 30px;
     }
     div#i1{
-      align-self: auto;
+      order: 0;
     }
     div#i2{
-      align-self: flex-start;
+      order: 2;
     }
     div#i3{
-      align-self: flex-end;
+      order: -2;
     }
     div#i4 {
-      align-self: center;
+      order: 3;
     }
     div#i5 {
-      align-self: stretch;
+      order: 0;
+    } 
+    div#i6 {
+      order: -4;
     }
   </style>
 </head>
@@ -44,6 +44,7 @@
     <div class="item" id="i3">c</div>
     <div class="item" id="i4">d</div>
     <div class="item" id="i5">e</div>
+    <div class="item" id="i6">f</div>
   </div>
 </body>
 
